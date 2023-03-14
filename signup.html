@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Form</title>
+    <style>
+      form {
+        width: 400px;
+        margin: 0 auto;
+        background-color: #48c9b0;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+      }
+      
+      button[type="submit"] {
+        background-color: #3B8879;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #48c9b0;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+        <h1>- Visitor -</h1>
+      <input type="text" id="org" name="name" placeholder="Full Name" required>
+      
+      <input type="email" id="org" name="email" placeholder="Email" required>
+      
+      <input type="text" id="org" name="password" placeholder="Organisation" required>
+      
+      <button type="submit">Sign Up</button>
+      <button type="submit">Return</button>
+    </form>
+  </body>
+</html>
